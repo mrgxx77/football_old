@@ -33,6 +33,7 @@ html {
 
 .logo{
     column-gap: 34rem;
+    flex-wrap: wrap;
 }
 
 .contacts, 
@@ -84,7 +85,7 @@ html {
 }
 
 .main-text{
-    max-width: 540rem;
+    /* max-width: 540rem; */
 }
 
 .main-text h1{
@@ -99,6 +100,10 @@ html {
     font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
+}
+
+.menu{
+    width: 100%;
 }
 
 .menu p{
@@ -128,17 +133,25 @@ html {
 }
 
 .footer p{
+    font-size: 14rem;
     padding: 14rem;
     background-color: #39930d;
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 491px){
     .flex-between {
         justify-content: space-between;
     }
 }
-
+@media screen and (min-width: 625px){
+    .main{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 50rem;
+    }
+}
 @media screen and (min-width: 621px){
     .contacts p  {
         text-align: left;
