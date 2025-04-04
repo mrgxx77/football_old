@@ -143,6 +143,15 @@ html {
     .flex-between {
         justify-content: space-between;
     }
+    .logo{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .header{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 @media screen and (min-width: 625px){
     .main{
@@ -150,6 +159,11 @@ html {
         display: flex;
         justify-content: space-between;
         column-gap: 50rem;
+    }
+}
+@media screen and (max-width: 625px){
+    .menu p`{
+        width: 100%;
     }
 }
 @media screen and (min-width: 621px){
