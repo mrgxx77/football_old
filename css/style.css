@@ -84,10 +84,6 @@ html {
     flex-wrap: wrap-reverse;
 }
 
-.main-text{
-    /* max-width: 540rem; */
-}
-
 .main-text h1{
     margin-bottom: 17rem;
     font-size: 24rem;
@@ -100,10 +96,6 @@ html {
     font-size: 14rem;
     line-height: 1.5em;
     color: #343434;
-}
-
-.menu{
-    width: 100%;
 }
 
 .menu p{
@@ -162,7 +154,7 @@ html {
     }
 }
 @media screen and (max-width: 625px){
-    .menu p`{
+    .menu p{
         width: 100%;
     }
 }
